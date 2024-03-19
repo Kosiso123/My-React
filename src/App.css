@@ -5,24 +5,33 @@
   padding: 0.5rem;
   text-align: center;
 }
+
 .container{
   min-height: 500px;
   width: 500px;
-  box-shadow: 10px 10px 5px 10px grey;
   padding: 1rem;
   text-align: center;
   justify-content: center;
   margin: auto;
   border-radius: 20px;
-  background-color: rgba(128, 128, 128, 0.822);
+  background-color: rgba(128, 0, 128, 0.836);
+
+
+}
+.container:hover{
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5) ;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
 
 }
 .header{
-  font-size: 20px;
+  font-size: 30px;
+  color: white;
 }
 .inp-holder{
   display: inline-flex;
   margin: 5px;
+  
 }
 .inp{
   border: none;
@@ -30,13 +39,14 @@
   margin: 10px;
   outline: none;
  border-radius: 15px;
+ background-color: rgba(221, 160, 221, 0.76);
 
 }
 
 .btn{
   border-radius: 50%;
   border: none;
-  background-color: rgba(0, 128, 0, 0.616);
+  background-color: purple;
   padding: 2px;
   margin: 5px;
   width: 55px;

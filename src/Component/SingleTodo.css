@@ -1,9 +1,9 @@
 .single{
     width: 100%;
     display: flex;
-    padding: 2px;
-    margin: 10px;
-    background-color: aqua;
+    padding: 5px;
+    margin: 20px;
+    background-color: rgba(255, 147, 241, 0.397);
     justify-content: space-around;
     border-radius: 20px;
 
@@ -11,6 +11,7 @@
 .todo-name{
     margin: 5px;
     padding: 5px;
+    color: white;
 
 }
 .icons{
@@ -26,8 +27,8 @@
     transform: scale(0.9);
 }
 .btn1{
-    background-color: green;
-    border-radius: 25%;
+    background-color: rgba(0, 128, 0, 0.24);
+    border-radius: 25px;
     width: 50px;
     font-size: 15px;
     padding: 5px;
